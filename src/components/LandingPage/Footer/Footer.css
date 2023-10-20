@@ -1,0 +1,31 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    width: auto;
+}
+
+.container-icon {
+overflow: visible;
+box-sizing: content-box;
+font-size: 80px;
+padding: 50px;
+}
+
+.container-typo {
+    display: flex;
+    justify-content: center;
+    margin-bottom: calc(1.5rem - 0.75rem);
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+    margin-top: -0.75rem;
+}
+
+.container-typo2 {
+    display: block;
+    padding: 0.75rem;
+}
+
+.social {
+    margin: 0 auto 3.5rem;
+}

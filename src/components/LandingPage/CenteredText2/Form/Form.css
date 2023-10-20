@@ -1,0 +1,134 @@
+.has-text-centered {
+    text-align: center !important;
+}
+
+.container-form {
+    display: flex;
+    padding: 0 20px;
+    margin: 0 20px 0 20px;
+    position: relative;
+    width: auto;
+    justify-content: center;
+}
+
+/* .columns.is-centered {
+    justify-content: center;
+} */
+
+.columns {
+    margin: 200px 500px 200px 500px;
+}
+
+.columns-form {
+    display: flex;
+}
+
+.columns-form-btn {
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    padding: 0.75rem;
+}
+
+form {
+    max-width: 640px;
+}
+
+.label {
+    font-weight: 400;
+    font-family: 'eurostile', sans-serif;
+    font-size: 1.2rem;
+    color: rgba(41, 51, 71, 0.65);
+}
+
+.control {
+    box-sizing: border-box;
+    clear: both;
+    font-size: 1rem;
+    position: relative;
+    text-align: inherit;
+}
+
+.input {
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    border-color: #e6ecf8;
+    color: #141c3a;
+    box-shadow: none;
+    margin-top: 5px;
+}
+
+.select {
+    width: 100%;
+    color: #141c3a;
+}
+
+.is-large {
+    background-color: #ffffff;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    border-color: #e6ecf8;
+    color: #141c3a;
+    box-shadow: none;
+    margin-top: 5px;
+}
+
+.select.is-fullwidth select {
+    width: 280px;
+}
+
+textarea {
+    border-color: #e6ecf8;
+    color: #141c3a;
+    box-shadow: none;
+}
+
+.textarea[rows] {
+    height: initial;
+}
+
+.textarea {
+    display: block;
+    max-width: 100%;
+    min-width: 187%;
+    padding: calc(0.75em - 1px);
+    resize: vertical;
+}
+
+.btn-form.is-primary.is-outlined {
+    background-color: transparent;
+    border-color: #6e07f3;
+    color: #6e07f3;
+}
+
+.btn-form {
+    margin: 20px 0 80px;
+    border-width: 2px;
+    font-weight: 400;
+    height: auto;
+    font-family: 'europa', sans-serif;
+    cursor: pointer;
+    justify-content: center;
+    padding-bottom: calc(0.5em - 1px);
+    padding-top: calc(0.5em - 1px);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.btn-form.is-rounded {
+    border-radius: 9999px;
+    padding-left: calc(1em + 0.25em);
+    padding-right: calc(1em + 0.25em);
+}
+
+.btn-form.is-fullwidth {
+    display: flex;
+    width: 100%;
+}
+
+.btn-form.is-medium {
+    font-size: 1.25rem;
+}

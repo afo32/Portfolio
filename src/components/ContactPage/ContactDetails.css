@@ -1,0 +1,54 @@
+.max-width {
+    max-width: 120%;
+    margin: 0 400px;
+}
+
+.top-bottom-margin {
+    margin: 35vh 0 35vh 0;
+}
+
+.hide-text-block {
+    position: relative;
+    display: block;
+    overflow: hidden;
+}
+
+.animate {
+    animation: animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+.max-width-70 {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.delay02 {
+    animation-delay: .2s;
+}
+
+.links a {
+    display: block;
+    margin: 4vh 0;
+    font-family: 'medium';
+    font-size: 19px;
+}
+
+a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
+    color: #ea0f1e;
+}
+
+.label-email {
+    cursor: pointer;
+}
+
+.on-hover-40, .on-hover--40 {
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+
+a, a:after, a:visited {
+    text-decoration: none;
+}
+
+.label-email:after {
+    content: 'juanc1994@gmail.com';
+}

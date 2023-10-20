@@ -1,0 +1,16 @@
+.box {
+    padding: 250px 250px 180px 250px;
+    max-width: 70%;
+    margin: 0 100px 0 100px;
+}
+
+.typo {
+    display: grid;
+    direction: column;
+    align-items: center;
+}
+
+
+.resume {
+    color: #6E07F3;
+}

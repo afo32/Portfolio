@@ -1,0 +1,27 @@
+.boxDetails {
+    display: grid;
+    direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 300px 100px;
+}
+
+.titleDetails {
+    color: #6E07F3;
+}
+
+.logoDetails {
+    display: grid;
+    direction: row;
+    justify-content: flex-end;
+    align-items: flex-start;  
+     
+}
+
+.icon {
+    position: fixed;
+    top: 10%;
+    z-index: 999;
+    margin-right: 200px;
+    color: #6E07F3;
+}

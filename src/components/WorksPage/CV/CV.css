@@ -1,0 +1,35 @@
+a {
+    text-decoration: none;
+}
+
+.body {
+    font-size: calc(1em + 1vw);
+}
+
+.max-width {
+    max-width: 21.5em;
+    margin: 0 auto;
+}
+
+.margin-animate {
+    animation: animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-fill-mode: backwards;
+    margin: 35vh 0 30vh 0;
+}
+
+
+.work-block {
+    margin: 12vh 0;
+    transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+    position: relative;
+    overflow: hidden;
+}
+
+.css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+    background: none !important;       
+    display: contents;
+    border-style: none;
+}
+
+
+  
