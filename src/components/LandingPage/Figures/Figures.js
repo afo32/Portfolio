@@ -2,6 +2,7 @@ import { Grid, Typography, Button, } from "@mui/material";
 import './Figures.css';
 
 import Knife from '../../../assets/knife.webp';
+import PokedexIcon from '../../../assets/pokedexlogo.png'
 import { Link } from "react-router-dom";
 
 export function Figures() {
@@ -23,9 +24,15 @@ export function Figures() {
       <div className="columns is-multiline">
         <div className="column">
         <figure className="image">
-           <Grid item xs={1}>
+           <Grid item xs={3}>
            <Link to='/works/app-data'>
                   <img src={Knife} alt="knife" className="knife project-thumb"/>
+           </Link>
+
+      </Grid>
+      <Grid item xs={3}>
+           <Link to='/works/pokedex'>
+                  <img src={PokedexIcon} alt="knife" className="knife project-thumb"/>
            </Link>
 
       </Grid>

@@ -3,7 +3,7 @@ import { LandingPage } from '../Pages/LandingPage';
 import { Details } from "../Pages/Details";
 import { Work } from '../Pages/Works';
 import { Contact } from '../Pages/Contact';
-import { AppData, Form } from "../components";
+import { AppData, Form, Pokedex } from "../components";
 import { FormConver } from "../components/LandingPage/Conversation/Form/FormConver";
 
 export function MyRouts() {
@@ -16,6 +16,7 @@ export function MyRouts() {
             <Route path="/works/app-data" element={<AppData />} />
             <Route exact path="/start-a-conversation" element={<FormConver/>}/>
             <Route exact path="/lets-do-it" element={<Form/>} />
+            <Route exact path="/works/pokedex" element={<Pokedex />} />
         </Routes>
     </Router>
 

@@ -6,12 +6,14 @@ import Typography from "@mui/material/Typography";
 import {
   Link,
 } from "react-router-dom";
+import './Navbar.css'
 // import IconButton from '@mui/material/IconButton';
 // import MenuIcon from '@mui/icons-material/Menu';
 
+
 export function NavBar() {
   return (      <div className="App">
-        <Box sx={{ flexGrow: 1, marginBottom: "100px" }}>
+        <Box sx={{ flexGrow: 1, }}>
           <AppBar position="static" color="transparent">
             <Toolbar>
                 <Typography

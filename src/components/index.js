@@ -1,4 +1,4 @@
-export * from "./LandingPage/NavBar";
+export * from "./LandingPage/NavBar/NavBar";
 export * from "./LandingPage/Title/Title";
 export * from "./LandingPage/CenteredText";
 export * from './LandingPage/Figures/Figures';
@@ -11,3 +11,4 @@ export * from './WorksPage/CV/CV';
 export * from './WorksPage/CV/AppsData/AppData';
 export * from './ContactPage/ContactDetails';
 export * from './LandingPage/CenteredText2/Form/Form';
+export * from './WorksPage/CV/Pokedex/Pokedex';

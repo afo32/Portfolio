@@ -1,0 +1,16 @@
+.css-i9gxme {
+    margin-bottom: 100px;
+}
+
+@media screen and (max-width: 576px) {
+    .css-i9gxme {
+        margin-bottom: 50px;
+        width: 130vw;
+    }
+
+    .css-v526sl-MuiPaper-root-MuiAppBar-root {
+        display: block;
+        font-size: 35px;
+        cursor: pointer;
+    }
+}

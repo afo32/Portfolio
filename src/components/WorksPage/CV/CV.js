@@ -47,6 +47,42 @@ export function CV() {
               </div>
             </Button>
           </Link>
+          <Link to={'/works/pokedex'}>
+            <Button
+              variant="text"
+              disableTouchRipple
+              size="small"
+              sx={{ display: "contents"}}
+            >
+              <div className="margin-animate">
+                <div className="work-block">
+                  <Typography
+                    variant="h1"
+                    sx={{
+                      fontFamily: "semibold",
+                      lineHeight: "140%",
+                      fontSize: "6em",
+                      color: "black",
+                    }}
+                  >
+                    Afo's Pokedex
+                  </Typography>
+                  <Typography
+                    variant="body1"
+                    sx={{
+                      fontFamily: "medium",
+                      fontSize: "16px",
+                      marginBottom: "0",
+                      color: "red",
+                      lineHeight: "170%",
+                    }}
+                  >
+                    Web and mobile
+                  </Typography>
+                </div>
+              </div>
+            </Button>
+          </Link>
           <Outlet />
         </div>
       </Stack>

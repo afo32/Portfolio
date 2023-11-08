@@ -5,7 +5,7 @@ import {
   Figures,
   Conversation,
   Footer
-} from "../components";
+} from "../components/index";
 import { CenteredText2 } from "../components/LandingPage/CenteredText2/CenteredText2";
 
 export function LandingPage () {

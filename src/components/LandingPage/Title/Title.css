@@ -5,3 +5,14 @@
     margin-top: 50px;
     margin-bottom: -0.46rem;
 }
+
+@media screen and (max-width: 576px) {
+    .logo {
+        width: 650px;
+        margin-top: 25px;
+    }
+
+    .css-q084b1-MuiGrid-root>.MuiGrid-item {
+        padding-left: 20px;
+    }
+}
